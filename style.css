@@ -1,0 +1,30 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 85vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#information{
+    text-align: center;
+}
+
+#generate-button{
+    margin-top: 2em;
+    background-color: rgb(255, 131, 131);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.2);
+    transition: 0.25s;
+}
+
+#generate-button:hover{
+    transform: translateY(-3px);
+}
